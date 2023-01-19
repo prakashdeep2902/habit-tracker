@@ -1,0 +1,138 @@
+
+.navbar{
+
+   
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    box-shadow: 2px 2px 10px #000000;
+
+
+}
+.navbar_title{
+
+    color: rgb(34, 239, 242);
+     padding-left: 1rem;
+    width: 50%;
+   
+  
+   
+}
+.left_div{
+
+ 
+    width: 50%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   }
+.left_div button{
+
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-right: 2rem;
+    border: none;
+    background-color: rgb(66, 246, 231);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 9px #999;
+    
+
+}
+.left_div button:hover{
+
+    background-color: rgb(9, 240, 220);
+
+}
+
+/* started is InputHabit */
+
+
+
+/* css of habitdetails */
+
+.habitdetails-container{
+
+    display: flex;
+    width: 90%;
+    height: 5rem;
+    border: 2px solid lightgray;
+    margin: auto;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    position: relative;
+}
+.habitdetails-container:hover{
+
+    background-color: #999;
+    cursor: pointer;
+}
+.habitdetails-container-left-div
+{
+    display: flex;
+    width: 50%;
+    padding-left: 2rem;
+   
+}
+.habitdetails-container-left-div h1{
+
+    text-transform: capitalize;
+}
+.habitdetails-container-right-div{
+
+    display: flex;
+    width: 50%;
+    height: inherit;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+
+}
+.habitdetails-container-right-div .anchertag{
+
+    border: 1px solid gray;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    width: 8rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+
+    
+}
+.habitdetails-container-right-div .anchertag i{
+
+    color: white;
+    font-size: 1rem;
+
+}
+.habitdetails-container-right-div .anchertag a{
+
+    text-decoration: none;
+    margin-left: .5rem;
+    color: white;
+    font-weight: bold;
+
+}
+.trashitam{
+
+    display: flex;
+    background-color: gray;
+    width: 1.5rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    cursor: pointer;
+}
