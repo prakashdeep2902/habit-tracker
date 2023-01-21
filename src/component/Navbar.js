@@ -28,7 +28,7 @@ const Navbar = () => {
                     <button style={{ transform: isActive ? 'translateY(4px)' : '', boxShadow: isActive ? "0 5px #666" : "" }} onClick={handelonclick}>+ Add Habits</button>
                 </div>
             </div>
-            <Inputhabit isActive={isActive} setIsActive={setIsActive}  />
+            <Inputhabit isActive={isActive} setIsActive={setIsActive} />
 
         </>
 

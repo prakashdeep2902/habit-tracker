@@ -1,5 +1,7 @@
+import moment from 'moment/moment'
 import React from 'react'
 import '../App.css'
+
 const WeekDetials = () => {
   return (
     <>
@@ -11,10 +13,10 @@ const WeekDetials = () => {
         </div>
         <div className='all_week_days'>
           <div className='day'>
-            <p>sunday</p>
+            <p>{moment().format("dddd")}</p>
           </div>
-          <div className='date'>
-            <p>29/02/2023</p>
+          <div className='date'> 
+            <p>{moment().format("Do/MMM/YYYY")}</p>
           </div>
           <div className='status'>
             <div className='sign'>
