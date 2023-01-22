@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <>
             <div className='navbar'>
-                 n  <div className='navbar_title' >
+                 <div className='navbar_title' >
                     <h1>Habbitracker &#x1f3c3;</h1>
                 </div>
 

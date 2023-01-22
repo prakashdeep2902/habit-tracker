@@ -13,15 +13,18 @@ const App = () => {
 
       <Navbar />
 
-      {
-        list.map((elem, id) => {
-          return (<Habitdetails elem={elem} key={id} />)
-
-        })
-      }
 
       <BrowserRouter>
         <Routes>
+          <Route path='/' element={   
+              list.map((elem, id) => {
+                return (<Habitdetails elem={elem} key={id} />)
+
+              })
+            }>
+         
+          </Route>
+
           <Route path="week-details" element={<WeekDetials />}></Route>
         </Routes>
       </BrowserRouter>

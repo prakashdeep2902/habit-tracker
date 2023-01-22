@@ -10,7 +10,7 @@ const Inputhabit = (props) => {
     const dispatch = useDispatch();
     const { isActive, setIsActive } = props
     const refClose = useRef(null)
-    // const [Takeinput,SetTakeinput]=useState('')
+
 
 
     const handelonclick = () => {
