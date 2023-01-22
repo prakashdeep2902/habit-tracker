@@ -3,10 +3,13 @@ import React from 'react'
 import '../App.css'
 
 const WeekDetials = () => {
+
+
   return (
     <>
 
       <div className='container_habitdetails'>
+
 
         <div className='habitdetails_title'>
           <p>reading</p>
