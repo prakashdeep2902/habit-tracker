@@ -25,7 +25,6 @@ const Inputhabit = (props) => {
     return (
 
         <>
-
             <div className="modal fade col-sm-50" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
@@ -39,8 +38,6 @@ const Inputhabit = (props) => {
                                     <label htmlFor="title" className="form-label">Name Of The Habbit</label>
                                     <input type="text" className="form-control" id="etitle" name="etitle" aria-describedby="emailHelp" value={input} onChange={(event) => setInput(event.target.value)} />
                                 </div>
-
-
                             </form>
                         </div>
                         <div className="modal-footer">
