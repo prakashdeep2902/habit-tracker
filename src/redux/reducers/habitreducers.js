@@ -9,7 +9,7 @@ const habitreducers = (state = intialdata, action) => {
     switch (action.type) {
         case "ADDHABITE":
             const { id, inputdata } = action.payload
-           
+
             return {
                 ...state,
                 data: [
@@ -29,9 +29,17 @@ const habitreducers = (state = intialdata, action) => {
                 data: newData
 
             }
+        case "WEEKDETIALS":
 
+
+            return {
+
+                ...state
+
+            }
 
         default: return state;
     }
 }
 export default habitreducers
+

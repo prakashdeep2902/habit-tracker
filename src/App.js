@@ -7,6 +7,7 @@ import { useSelector } from 'react-redux'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 const App = () => {
   const list = useSelector((state) => state.habitreducers.data)
+
   return (
 
     <>
@@ -23,8 +24,8 @@ const App = () => {
           }>
 
           </Route>
+          <Route path="/week-details/:productId" element={<WeekDetials />}></Route>
 
-          <Route path="week-details" element={<WeekDetials />}></Route>
         </Routes>
       </BrowserRouter>
 

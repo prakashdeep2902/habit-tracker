@@ -30,7 +30,7 @@ const Inputhabit = (props) => {
                     <div className="modal-content">
                         <div className="modal-header">
                             <h1 className="modal-title fs-5" id="exampleModalLabel">Add New Habit</h1>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={() => { isActive === false ? setIsActive(true) : setIsActive(false) }}></button>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={() => {isActive === false ? setIsActive(true) : setIsActive(false) }}></button>
                         </div>
                         <div className="modal-body">
                             <form className="my-3">

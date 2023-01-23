@@ -1,14 +1,17 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { RemoveTheHabite } from '../redux/ActionCreater/ActionType'
-
+import { RemoveTheHabite} from '../redux/ActionCreater/ActionType'
 import '../App.css'
+import { Link } from 'react-router-dom';
 
 
 const Habitdetails = (props) => {
 
-    const dispatch = useDispatch()
 
+    const dispatch = useDispatch()
+    const handelclick = () => {
+
+  }
     return (
 
         <>
@@ -17,10 +20,14 @@ const Habitdetails = (props) => {
                     <p>{props.elem.inputdata}</p>
                 </div>
                 <div className='habitdetails-container-right-div'>
-                    <div className='anchertag'>
-                        <i className="fa-solid fa-calendar-days"></i>
-                        <a href='/week-details'>week view</a>
-                    </div>
+                    <Link to={`/week-details/${props.elem.id}`} className='link'>
+                        <div className='anchertag' onClick={handelclick}>
+                            <i className="fa-solid fa-calendar-days"></i>
+                            <p>week view</p>
+
+                        </div>
+                    </Link>
+
                     <div className='trashitam' onClick={() => { dispatch(RemoveTheHabite(props.elem.id)) }}>
                         <i className="fa-solid fa-trash" ></i>
                     </div>

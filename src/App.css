@@ -110,6 +110,7 @@
     justify-content: center;
     align-items: center;
     background: grey;
+   
 
     
 }
@@ -118,15 +119,24 @@
     color: white;
     font-size: 1rem;
 
-}
-.habitdetails-container-right-div .anchertag a{
 
-    text-decoration: none;
+}
+.habitdetails-container-right-div .anchertag p{
+
+ 
+    margin-top: 1rem;
     margin-left: .5rem;
+    text-decoration: none;
     color: white;
-    font-weight: bold;
-
+    
 }
+.habitdetails-container-right-div .link
+{
+    text-decoration: none;
+}
+
+
+
 .trashitam{
 
     display: flex;
@@ -141,6 +151,11 @@
     cursor: pointer;
 }
 /* css of habit details */
+.container_habitdetails
+{
+   display: grid;
+grid-template-columns: auto auto auto auto ;
+}
 
 
 .habitdetails_title{
@@ -191,6 +206,7 @@
    align-items: center;
    justify-content: space-around;
 
+
  
 }
 .all_week_days .status .sign{
@@ -205,11 +221,13 @@
     border-radius: 50%;
     margin-left: 1rem;
     margin-bottom: 1rem;
+    
+
   
 }
 .all_week_days .status .sign:hover{
 
-    cursor: pointer;
-    background-color: rgb(92, 92, 231);
+    cursor:pointer;
+  
     border: none;
 }

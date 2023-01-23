@@ -6,7 +6,7 @@ const Navbar = () => {
     const [isActive, setIsActive] = useState(false);
     const ref = useRef(null);
 
-    const handelonclick = () => {
+    const handelonclick = () => { 
 
         ref.current.click();
         setIsActive(current => !current)
